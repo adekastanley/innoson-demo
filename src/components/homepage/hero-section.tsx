@@ -6,8 +6,6 @@ import { InfiniteSlider } from "../ui/infinite-slider";
 import { ProgressiveBlur } from "../ui/progressive-blur";
 import { ChevronRight } from "lucide-react";
 
-import { YouTubeEmbed } from "@next/third-parties/google";
-
 export default function HeroSection() {
 	return (
 		<>
