@@ -6,6 +6,8 @@ import { InfiniteSlider } from "../ui/infinite-slider";
 import { ProgressiveBlur } from "../ui/progressive-blur";
 import { ChevronRight } from "lucide-react";
 
+import { YouTubeEmbed } from "@next/third-parties/google";
+
 export default function HeroSection() {
 	return (
 		<>
@@ -50,8 +52,9 @@ export default function HeroSection() {
 							<video
 								autoPlay
 								loop
+								muted
 								className="size-full -scale-x-100 object-cover opacity-50 invert dark:opacity-35 dark:invert-0 dark:lg:opacity-75"
-								src="https://www.youtube.com/watch?v=TmBPIyw-InQ"
+								src="/assets/video/one.mp4"
 							></video>
 						</div>
 					</div>
@@ -60,7 +63,9 @@ export default function HeroSection() {
 					<div className="group relative m-auto max-w-7xl px-6">
 						<div className="flex flex-col items-center md:flex-row">
 							<div className="md:max-w-44 md:border-r md:pr-6">
-								<p className="text-end text-sm">View Innoson car models</p>
+								<p className="text-end text-sm max-md:hidden">
+									View Innoson car models
+								</p>
 							</div>
 							<div className="relative py-6 md:w-[calc(100%-11rem)]">
 								<InfiniteSlider speedOnHover={20} speed={40} gap={112}>

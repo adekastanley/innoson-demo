@@ -25,7 +25,7 @@ const cars = [
 ];
 export function CarModels() {
 	return (
-		<div className="relative w-full px-4">
+		<div className="relative w-full px-4 mb-20">
 			<Carousel>
 				<CarouselContent className="-ml-4">
 					{cars.map((car, index) => (
