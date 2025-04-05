@@ -10,6 +10,9 @@ export default function CallToAction() {
 						Join the Movement
 					</h2>
 					<p className="mt-4">
+						{
+							// eslint-disable-next-line @typescript-eslint/no-unused-vars
+						}
 						Innoson is more than a car — it's a symbol of pride, progress, and
 						possibility.
 					</p>
