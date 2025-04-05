@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { useScroll, motion } from "motion/react";
 import { cn } from "@/lib/utils";
+import { ModeToggle } from "@/theme/toggler";
 
 const menuItems = [
 	{ name: "Vehicles", href: "#link" },
@@ -14,7 +15,7 @@ const menuItems = [
 	{ name: "About", href: "#link" },
 ];
 
-export const HeroHeader = () => {
+export const Navbar = () => {
 	const [menuState, setMenuState] = React.useState(false);
 	const [scrolled, setScrolled] = React.useState(false);
 	const { scrollYProgress } = useScroll();
@@ -106,6 +107,7 @@ export const HeroHeader = () => {
 									</Link>
 								</Button>
 							</div>
+							<ModeToggle />
 						</div>
 					</motion.div>
 				</div>

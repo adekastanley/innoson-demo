@@ -18,6 +18,10 @@ const cars = [
 		car: "three",
 		image: "/assets/cars/c3.jpg",
 	},
+	{
+		car: "four",
+		image: "/assets/cars/c4.jpg",
+	},
 ];
 export function CarModels() {
 	return (

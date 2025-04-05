@@ -6,7 +6,7 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import {
-	ChartBarIncreasingIcon,
+	// ChartBarIncreasingIcon,
 	Database,
 	Fingerprint,
 	IdCard,
@@ -17,7 +17,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { BorderBeam } from "@/components/magicui/border-beam";
 
 export default function WhyChoose() {
-	type ImageKey = "item-1" | "item-2" | "item-3" | "item-4";
+	type ImageKey = "item-1" | "item-2" | "item-3";
 	const [activeItem, setActiveItem] = useState<ImageKey>("item-1");
 
 	const images = {
