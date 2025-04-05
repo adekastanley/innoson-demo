@@ -9,7 +9,7 @@ import { ChevronRight } from "lucide-react";
 export default function HeroSection() {
 	return (
 		<>
-			<main className="overflow-x-hidden">
+			<main className="overflow-x-hidden px-0">
 				<section>
 					<div className="py-24 md:pb-32 lg:pb-36 lg:pt-72">
 						<div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
